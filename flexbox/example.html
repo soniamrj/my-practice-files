@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nested flexbox-practicing</title>
+    <link rel="stylesheet" href="example.css">
+    <script src="https://code.jquery.com/jquery-1.12.1.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">store</a></li>
+                <li><a href="">shop</a></li>
+            </ul>
+            <ul class="social">
+                <li><a  href="" class="tw">twitter</a></li>
+                <li><a  href="" class="fb">facebook</a></li>
+            </ul>
+        </nav>
+    
+    <div style="margin: 20px;">
+    <span>layout: </span>
+    <a href="#" class="stack">stack</a>
+    <a href="#" class="grid">grid</a>
+    </div>
+        <section id="blocks">
+            <article>
+                <h2>this is about lorem</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem nemo maxime voluptas recusandae consequatur voluptatum corporis reiciendis veritatis provident delectus ducimus vitae asperiores nobis quisquam, sit officiis perferendis suscipit dicta?</p>
+            </article>
+            <article>
+                <h2>this is about lorem</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem nemo maxime voluptas recusandae consequatur voluptatum corporis reiciendis veritatis provident delectus ducimus vitae asperiores nobis quisquam, sit officiis perferendis suscipit dicta?</p>
+            </article>
+            <article>
+                <h2>this is about lorem</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem nemo maxime voluptas recusandae consequatur voluptatum corporis reiciendis veritatis provident delectus ducimus vitae asperiores nobis quisquam, sit officiis perferendis suscipit dicta?</p>
+            </article>
+            <article>
+                <h2>this is about lorem</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem nemo maxime voluptas recusandae consequatur voluptatum corporis reiciendis veritatis provident delectus ducimus vitae asperiores nobis quisquam, sit officiis perferendis suscipit dicta?</p>
+            </article>
+            <article>
+                <h2>this is about lorem</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem nemo maxime voluptas recusandae consequatur voluptatum corporis reiciendis veritatis provident delectus ducimus vitae asperiores nobis quisquam, sit officiis perferendis suscipit dicta?</p>
+            </article>
+            <article>
+                <h2>this is about lorem</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem nemo maxime voluptas recusandae consequatur voluptatum corporis reiciendis veritatis provident delectus ducimus vitae asperiores nobis quisquam, sit officiis perferendis suscipit dicta?</p>
+            </article>
+        </section>
+    </div>
+        <script>
+            $("a.stack").on("click",function(){
+                $("article").addClass("stack");
+            });
+            $("a.grid").on("click",function(){
+                $("article").removeClass("stack");
+            });
+            
+        </script>
+</body>
+</html>
