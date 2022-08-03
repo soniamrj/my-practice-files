@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="todolist.js" defer></script>
+
+  </head>
+
+  <body>
+    <div class="backdrop" ></div>
+    <header>
+      <h1>DAILY TASKS</h1>
+      <button id="add-btn">Add a new task</button>
+    </header>
+    <main>
+      <div class="card">
+        <h2>your personal To Do list</h2>
+      </div>
+      <div class="list-modal">
+        <ul class="todo-list"></ul>
+      </div>
+    </main>
+
+    <div class="invisible" id="add-container">
+      <div id="content">
+        <label for="task">Your New Task :</label>
+        <br>
+        <input type="text" name="task" id="task" />
+      </div>
+      <div class="actions">
+        <button class="btn cancel">Cancel</button>
+        <button class="btn add">Add</button>
+      </div>
+    </div>
+
+    
+  </body>
+</html>
